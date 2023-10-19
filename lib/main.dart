@@ -3,10 +3,11 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/services.dart';
 import 'dart:convert' show json;
 
-void main() => runApp(const MaterialApp(
-  debugShowCheckedModeBanner: false,
+import 'address.dart';
 
-  home: AddAddress(),
+void main() => runApp(MaterialApp(
+  debugShowCheckedModeBanner: false,
+  home: AddressBook(),
 ));
 
 class AddAddress extends StatefulWidget {
